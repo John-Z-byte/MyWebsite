@@ -1,174 +1,431 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>John Zapata - Data Analyst & Developer</title>
-  
-  <!-- Stylesheets -->
-  <link rel="stylesheet" href="style.css" />
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>John Zapaya</title>
+    <!-- style css -->
+    <link rel="stylesheet" href="style.css">
+    <!-- remix icon cdn -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet" />
+    <!-- splide js -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css">
 </head>
+
 <body>
+    <!-- navbar -->
+    <nav class="navbar">
+        <i class="ri-menu-fill" id="toggle"></i>
+        <div class="logo">
+            <a href="#">John Zapata</a>
+        </div>
+        <ul class="menu">
+            <li><a href="#Home">Home</a></li>
+            <li><a href="#About">About</a></li>
+            <li><a href="#Services">Services</a></li>
+            <li><a href="#Portfolio">Portfolio</a></li>
+            <li><a href="#Skills">Skills</a></li>
+        </ul>
+        <div class="nav_btn btn">
+            <a href="#">Let's contact</a>
+        </div>
+    </nav>
 
-  <!-- Navbar -->
-  <nav class="navbar">
-    <i class="ri-menu-fill" id="toggle"></i>
-    <div class="logo"><a href="#">John Zapata</a></div>
-    <ul class="menu">
-      <li><a href="#home">Home</a></li>
-      <li><a href="#experience">About</a></li>
-      <li><a href="#services">Services</a></li>
-      <li><a href="#portfolio">Portfolio</a></li>
-      <li><a href="#skills">Skills</a></li>
-      <li><a href="#contact">Contact</a></li>
-    </ul>
-  </nav>
+    <div class="hero section">
+        <div class="hero_title section_title">
+            <span id="span">Hello! There</span>
+            <h1>
+                I'm John
+                <span id="text">Zapata</span>
+            </h1>
+            <h3>Data Analyst & Developer</h3>
+            <p>I'm John Zapata, a Data Analyst & Developer from Medellín. I transform data into clear insights using Python, SQL, and Power BI to help businesses grow and optimize decisions.</p>
+            <div class="hero_btn">
+                <button class="btn">
+                    <a href="#">Contact Me</a>
+                </button>
+                <img src="Image/arrow-down-big.png" alt="">
+            </div>
+        </div>
+        <hr>
+        <hr>
 
-  <!-- Hero Section -->
-  <section class="hero fade-in" id="home">
-    <div class="hero-image">
-      <img src="Image/Portrait.png" alt="John Zapata" />
+        <div class="hero_image">
+            <img src="Image/hero.png" alt="Profile">
+        </div>
     </div>
-    <div class="hero-content">
-      <h1>Hello, I'm <span>John Zapata</span></h1>
-      <h3>Data Analyst & Developer</h3>
-      <p>I'm John Zapata, a Data Analyst & Developer based in Medellín, Colombia.
-        I turn complex data into actionable insights using Python, SQL, and Power BI, helping businesses make data-driven decisions that drive growth and efficiency. Always seeking new ways to leverage data for success.</p>
-      <a href="#contact" class="btn">Contact Me</a>
-    </div>
-  </section>
-  
 
-  <!-- About Section -->
-  <section class="about fade-in" id="experience">
-    <h2>Professional Experience</h2>
     
-    <div class="experience-list">
-      <div class="experience-item">
-        <h3>Quality Analyst</h3>
-        <h4 class="experience-company">EMTELCO SAS</h4>
-        <p class="experience-duration">July 2021 - January 2022</p>
-        <p class="experience-description">
-          Monitored agent performance, analyzed data for trends, and prepared reports for decision-making.
-        </p>
-      </div>
-  
-      <div class="experience-item">
-        <h3>Operational Business Analyst</h3>
-        <h4 class="experience-company">MERCURE ST. JULIAN'S HOTEL</h4>
-        <p class="experience-duration">May 2022 - June 2023</p>
-        <p class="experience-description">
-          Developed reports on operational performance, recommending improvements for guest satisfaction and productivity, while collaborating on KPIs and actionable insights.
-        </p>
-      </div>
-  
-      <div class="experience-item">
-        <h3>Admin Sales Analyst</h3>
-        <h4 class="experience-company">BLACKSTONE MEDICAL SERVICES</h4>
-        <p class="experience-duration">February 2024 - September 2024</p>
-        <p class="experience-description">
-          Led sales strategy, using data analysis to drive growth and track KPIs, while identifying opportunities through market trends.
-        </p>
-      </div>
-  
-      <div class="experience-item">
-        <h3>Sales Division Manager</h3>
-        <h4 class="experience-company">BLACKSTONE MEDICAL SERVICES</h4>
-        <p class="experience-duration">September 2024 - Present</p>
-        <p class="experience-description">
-          Lead sales team, optimize strategies with data, and drive patient acquisition and market growth.
-        </p>
-      </div>
+    <div class="splide MySplide">
+        <div class="splide__track">
+            <ul class="splide__list">
+                <li class="splide__slide My_Slide">
+                    <img src="Image/star.png" alt="">
+                    <h4>Data Analysis</h4>
+                </li>
+                <li class="splide__slide My_Slide">
+                    <img src="Image/star.png" alt="">
+                    <h4>Python Development</h4>
+                </li>
+                <li class="splide__slide My_Slide">
+                    <img src="Image/star.png" alt="">
+                    <h4>SQL & Databases</h4>
+                </li>
+                <li class="splide__slide My_Slide">
+                    <img src="Image/star.png" alt="">
+                    <h4>Power BI Dashboards</h4>
+                </li>
+                <li class="splide__slide My_Slide">
+                    <img src="Image/star.png" alt="">
+                    <h4>Automation Tools</h4>
+                </li>
+                <li class="splide__slide My_Slide">
+                    <img src="Image/star.png" alt="">
+                    <h4>CRM Optimization</h4>
+                </li>
+                <li class="splide__slide My_Slide">
+                    <img src="Image/star.png" alt="">
+                    <h4>Automation Tools</h4>
+                </li>
+                <li class="splide__slide My_Slide">
+                    <img src="Image/star.png" alt="">
+                    <h4>Frontend Dev</h4>
+                </li>
+            </ul>
+        </div>
     </div>
-  </section>
-  
 
-  <!-- Services Section -->
-  <section class="services fade-in" id="services">
-    <h2>My Services</h2>
-    <div class="service-list">
-      <div class="service">
-        <h3>Data Analysis</h3>
-        <p>Data-driven insights using SQL, Python, and Power BI to drive business decisions.</p>
-      </div>
-      <div class="service">
-        <h3>Front-End Development</h3>
-        <p>Modern and responsive websites using HTML, CSS, and JavaScript.</p>
-      </div>
-      <div class="service">
-        <h3>Business Development</h3>
-        <p>Optimizing sales pipelines, lead tracking, and CRM solutions tailored for growth.</p>
-      </div>
+
+    <div class="about section" id="About">
+        <div class="about_Image section_image">
+            <img src="Image/about.png" alt="">
+            <div class="icon icon1">
+                <img src="Image/icon1.png" alt="">
+            </div>
+            <div class="icon icon2">
+                <img src="Image/icon2.png" alt="">
+            </div>
+            <div class="icon icon3">
+                <img src="Image/icon3.png" alt="">
+            </div>
+            <div class="icon icon4">
+                <img src="Image/icon4.png" alt="">
+            </div>
+        </div>
+        <div class="about_title section_title">
+            <span id="span">About Me</span>
+            <h4>I'm <span>Data Analyst & Developer</span> based in Medellín, Colombia</h4>
+            <p>I specialize in transforming raw data into powerful insights that help businesses optimize performance, increase revenue, and make better decisions. My toolbox includes Python for automation, SQL for deep data analysis, and Power BI for building interactive dashboards.</p>            
+        </div>
     </div>
-  </section>
 
-<!-- Portfolio Section -->
-<section class="portfolio fade-in" id="portfolio">
-  <h2>Selected Projects</h2>
-  <div class="portfolio-grid">
-    <div class="project">
-      <a href="https://github.com/John-Z-byte/January-Sales-and-Conversion-Performance-Analysis" target="_blank">
-        <img src="Image/Dashboard_1.png" alt="Project 1" />
-      </a>
-      <h4>Sales Dashboard</h4>
-      <p>This project analyzes January sales data to evaluate key metrics and uncover trends to improve sales efficiency.</p>
+    <div class="services section" id="Services">
+        <div class="service_title section_title2">
+            <div class="headings">
+                <span class="span">What I Do</span>
+                <h3>Featured <span>Services.</span></h3>
+            </div>
+            <div class="main_btn">
+                <button class="btn btn2">
+                    <a href="#">View All</a>
+                </button>
+                <i class="ri-arrow-right-up-line"></i>
+            </div>
+        </div>
+        <div class="service_wrap">
+            <div class="service_card">
+                <div class="service_image">
+                    <img src="Image/service1.png" alt="">
+                </div>
+                <div class="service_card_info">
+                    <h3>Data Analysis</h3>
+                    <ul>
+                        <li><span>Python</span></li>
+                        <li><span>SQL</span></li>
+                    </ul>
+                    <p>I analyze raw datasets, clean them, and extract insights to support strategic decision-making and optimize operations.</p>
+                    <i class="ri-arrow-right-up-line"></i>
+                </div>
+            </div>
+            <div class="service_card">
+                <div class="service_image">
+                    <img src="Image/service2.png" alt="">
+                </div>
+                <div class="service_card_info">
+                    <h3>Power BI Reports</h3>
+                    <ul>
+                        <li><span>Dashboards</span></li>
+                        <li><span>Metrics/KPI's</span></li>
+                    </ul>
+                    <p> build dashboards that turn complex data into clear visuals to track performance and guide decisions.</p>
+                    <i class="ri-arrow-right-up-line"></i>
+                </div>
+            </div>
+            <div class="service_card">
+                <div class="service_image">
+                    <img src="Image/service3.png" alt="">
+                </div>
+                <div class="service_card_info">
+                    <h3>Process Automation</h3>
+                    <ul>
+                        <li><span>Python</span></li>
+                        <li><span>Scripts</span></li>
+                    </ul>
+                    <p>I automate repetitive tasks using Python to save time, reduce errors, and streamline business operations.</p>
+                    <i class="ri-arrow-right-up-line"></i>
+                </div>
+            </div>
+        </div>
     </div>
-    <div class="project">
-      <a href="https://github.com/John-Z-byte/Evaluating-January-Patient-Financial-Burden" target="_blank">
-        <img src="Image/Dashboard_2.png" alt="Project 2" />
-      </a>
-      <h4>Sales Dashboard</h4>
-      <p>This project analyzes out-of-pocket revenue using Google Colab and Power BI to optimize patient retention and financial strategies.</p>
+
+    
+    <div class="portfolio section" id="Portfolio">
+        <div class="portfolio_title section_title2">
+            <div class="headings">
+                <span class="span">Portfolio</span>
+                <h3>Selected <span>Works.</span></h3>
+            </div>
+            <div class="main_btn">
+                <button class="btn btn2">
+                    <a href="#">View All</a>
+                </button>
+                <i class="ri-arrow-right-up-line"></i>
+            </div>
+        </div>
+        <div class="portfolio_container">
+
+            <div class="portfolio_card">
+                <div class="portfolio_content">
+                    <div class="portfolio_info">
+                        <ul>
+                            <li><span>Power Bi</span></li>
+                            <li><span>Report</span></li>
+                        </ul>
+                        <h3>Sales Dashboard</h3>
+                    </div>
+                    <div>
+                        <p>This project analyzes January sales data to evaluate key metrics and uncover trends to improve sales efficiency.</p>
+                        <button class="btn">
+                            <a href="#">View Details</a>
+                            <i class="ri-arrow-right-up-line"></i>
+                        </button>
+                    </div>
+                </div>
+                <div class="portfolio_image">
+                    <img src="Image/portfolio1.png" alt="">
+                </div>
+            </div>
+
+            <div class="portfolio_card">
+                <div class="portfolio_content">
+                    <div class="portfolio_info">
+                        <ul>
+                            <li><span>Power Bi</span></li>
+                            <li><span>Dashboard</span></li>
+                        </ul>
+                        <h3>Financial Dashboard</h3>
+                    </div>
+                    <div>
+                        <p>This project analyzes out-of-pocket revenue using Google Colab and Power BI to optimize patient retention and financial strategies.</p>
+                        <button class="btn">
+                            <a href="#">View Details</a>
+                            <i class="ri-arrow-right-up-line"></i>
+                        </button>
+                    </div>
+                </div>
+                <div class="portfolio_image">
+                    <img src="Image/portfolio2.png" alt="">
+                </div>
+            </div>
+
+            <div class="portfolio_card">
+                <div class="portfolio_content">
+                    <div class="portfolio_info">
+                        <ul>
+                            <li><span>Python</span></li>
+                            <li><span>Optimizationn</span></li>
+                        </ul>
+                        <h3>Lead Generation Optimization</h3>
+                    </div>
+                    <div>
+                        <p>This project analyzes patient responsibility trends and optimizes lead generation through data cleaning, EDA, and visualizations to improve revenue and lead conversion.</p>
+                        <button class="btn">
+                            <a href="#">View Details</a>
+                            <i class="ri-arrow-right-up-line"></i>
+                        </button>
+                    </div>
+                </div>
+                <div class="portfolio_image">
+                    <img src="Image/portfolio3.png" alt="">
+                </div>
+            </div>
+        </div>
     </div>
-    <div class="project">
-      <a href="https://github.com/John-Z-byte/Financial-Analysis-Lead-Generation-Optimization-for-Health-Care-Company" target="_blank">
-        <img src="Image/Dashboard_3.png" alt="Project 3" />
-      </a>
-      <h4>Financial Analysis & Lead Generation Optimization</h4>
-      <p>This project analyzes patient responsibility trends and optimizes lead generation through data cleaning, EDA, and visualizations to improve revenue and lead conversion.</p>
+
+
+    <div class="skills section" id="Skills">
+        <div class="skill_title section_title">
+            <h2>I don’t just work with companies— <span>I build with visionaries.</span></h2>
+        </div>
+        <div class="skills_wrap">
+            <div class="skill_item">
+                <div class="skill_container">
+                    <div class="skill_icon">
+                        <img src="Image/skill1.png" alt="">
+                    </div>
+                    <div class="skill_num">
+                    </div>
+                </div>
+                <h6>Python</h6>
+            </div>
+            <div class="skill_item">
+                <div class="skill_container">
+                    <div class="skill_icon">
+                        <img src="Image/skill2.png" alt="">
+                    </div>
+                    <div class="skill_num">
+                    </div>
+                </div>
+                <h6>SQL</h6>
+            </div>
+            <div class="skill_item">
+                <div class="skill_container">
+                    <div class="skill_icon">
+                        <img src="Image/skill3.png" alt="">
+                    </div>
+                    <div class="skill_num">
+                    </div>
+                </div>
+                <h6>Power BI</h6>
+            </div>
+            <div class="skill_item">
+                <div class="skill_container">
+                    <div class="skill_icon">
+                        <img src="Image/skill4.png" alt="">
+                    </div>
+                    <div class="skill_num">
+                    </div>
+                </div>
+                <h6>Data Visualization</h6>
+            </div>
+            <div class="skill_item">
+                <div class="skill_container">
+                    <div class="skill_icon">
+                        <img src="Image/skill5.png" alt="">
+                    </div>
+                    <div class="skill_num">
+                    </div>
+                </div>
+                <h6>JavaScript</h6>
+            </div>
+            <div class="skill_item">
+                <div class="skill_container">
+                    <div class="skill_icon">
+                        <img src="Image/skill6.png" alt="">
+                    </div>
+                    <div class="skill_num">
+                    </div>
+                </div>
+                <h6>Frontend Development</h6>
+            </div>
+        </div>
     </div>
-  </div>
-</section>
+
+    
+    <div class="get_in_touch">
+        <marquee behavior="alternate">
+            <div class="marquee_content">
+                <img src="Image/star.png" alt="" id="star">
+                <h4>Get In Touch</h4>
+                <img src="Image/star.png" alt="" id="star">
+                <h4>Get In Touch</h4>
+                <img src="Image/star.png" alt="" id="star">
+                <h4>Get In Touch</h4>
+                <img src="Image/star.png" alt="" id="star">
+                <h4>Get In Touch</h4>
+                <img src="Image/star.png" alt="" id="star">
+                <h4>Get In Touch</h4>
+                <img src="Image/star.png" alt="" id="star">
+                <h4>Get In Touch</h4>
+                <img src="Image/star.png" alt="" id="star">
+                <h4>Get In Touch</h4>
+                <img src="Image/star.png" alt="" id="star">
+                <h4>Get In Touch</h4>
+            </div>
+        </marquee>
+        <marquee behavior="alternate" direction="right">
+            <div class="marquee_content">
+                <h4>Contact Me</h4>
+                <h4>Contact Me</h4>
+                <h4>Contact Me</h4>
+                <h4>Contact Me</h4>
+                <h4>Contact Me</h4>
+                <h4>Contact Me</h4>
+                <h4>Contact Me</h4>
+                <h4>Contact Me</h4>
+            </div>
+        </marquee>
+    </div>
 
 
+    <footer class="footer section">
+        <div class="footer_wrap">
+            <div class="footer_col">
+                <div class="F_logo">
+                    <a href="#">John Zapata</a>
+                </div>
+            </div>
+            <div class="footer_col">
+                <h5>Contact</h5>
+                <ul>
+                    <li>
+                        <p>Medellín, Colombia</p>
+                    </li>
+                    <li><a href="mailto:contact@johnzapatanalytics.com">contact@johnzapatanalytics.com</a></li>
+                    <li><a href="#">+57 300 152 6440</a></li>
+                </ul>
+            </div>
+            <div class="footer_col">
+                <h5>Useful Links</h5>
+                <ul>
+                    <li><a href="#About">About</a></li>
+                    <li><a href="#Services">Services</a></li>
+                    <li><a href="#Skills">Skills</a></li>
+                    <li><a href="#Contact">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer_col">
+                <h5>Newsletter</h5>
+                <div class="Input_box">
+                    <input type="email" placeholder="Your email" class="input">
+                    <i class="ri-send-plane-fill"></i>
+                </div>
+                <div class="social_icon">
+                    <a href="https://www.linkedin.com/in/john-z-99698a115/" target="_blank"><i class="ri-linkedin-fill"></i></a>
+                    <a href="https://github.com/John-Z-byte" target="_blank"><i class="ri-github-fill"></i></a>
+                    <a href="https://www.instagram.com/johnezapatam/" target="_blank"><i class="ri-instagram-fill"></i></a>
+                    <a href="https://www.youtube.com/@Johnezapatam" target="_blank"><i class="ri-youtube-fill"></i></a>
+                </div>
+                
+            </div>
+        </div>
+        <div class="footer_bottom">
+            <p>©️ 2025 Portfolio by <a href="#">John Zapata</a></p>
+        </div>
+    </footer>
+    
 
-  <!-- Skills Section -->
-  <section id="skills" class="skills">
-    <h2>Skills</h2>
-    <ul class="skills-list">
-      <li>SQL</li>
-      <li>Python</li>
-      <li>Power BI</li>
-      <li>HTML</li>
-      <li>CSS</li>
-      <li>JavaScript</li>
-    </ul>
-  </section>
 
-  <!-- Contact Section -->
-  <section id="contact" class="contact">
-    <h2>Contact Me</h2>
-    <p>Let's work together! Reach out to discuss your project or collaboration.</p>
-    <ul class="contact-info">
-      <li><strong>Email:</strong> <a href="mailto:estebandrums1@gmail.com">estebandrums1@gmail.com</a></li>
-      <li><strong>Phone:</strong> <a href="tel:+573001526440">+57 300 1526440</a></li>
-      <li><strong>Location:</strong> Medellín, Colombia</li>
-    </ul>
-  </section>
+    <!-- splide js -->
+    <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js"></script>
+    <!-- splide js auto scroll cdn -->
+    <script
+        src="https://cdn.jsdelivr.net/npm/@splidejs/splide-extension-auto-scroll@0.5.3/dist/js/splide-extension-auto-scroll.min.js"></script>
 
- <!-- Footer -->
-<footer class="footer">
-  <p>©️ 2025 John Zapata. All rights reserved.</p>
-  <div class="social-icons">
-    <a href="https://www.linkedin.com/in/john-z-99698a115/" target="_blank"><i class="ri-linkedin-fill"></i></a> <!-- Replace with actual LinkedIn URL -->
-    <a href="https://github.com/John-Z-byte" target="_blank"><i class="ri-github-fill"></i></a> <!-- Replace with actual GitHub URL -->
-    <a href="https://www.instagram.com/johnezapatam/" target="_blank"><i class="ri-instagram-fill"></i></a> <!-- Replace with actual Instagram URL -->
-    <a href="https://www.youtube.com/@Johnezapatam" target="_blank"><i class="ri-youtube-fill"></i></a> <!-- Replace with actual YouTube URL -->
-  </div>
-</footer>
+    <!-- script js -->
+    <script src="script.js"></script>
 
-<!-- JS Scripts -->
-<script src="script.js"></script>
 </body>
+
 </html>
